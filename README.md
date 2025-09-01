@@ -1,16 +1,14 @@
-# Heroine Dusk™
+# Tempest
 
-Version 1.2
+[Play the latest release](https://ericabxy.github.io/tempest-dawn/release)
 
-Heroine Dusk™ is a basic dungeon crawl made using an old aesthetic. It began as my April OneGameAMonth project.
+Tempest is a dungeon crawl based on [Clint Bellanger's engine](https://github.com/clintbellanger/heroine-dusk).
 
 The game's world is set in a fantasy human realm where the sun has not returned in several days. Evil forces are using the safety of night to invade. You are a serf woman takes up arms to fight against the darkness.
 
-* Game site: http://heroinedusk.com
-
 ## Technology
 
-The game is written in Javascript using HTML5 canvas. The art was created with Blender and GIMP.
+The game runs in-browser on Javascript and HTML5 canvas. Art is a mix of reworked and origina pixel art.
 
 * 16 colors (using DawnBringer's palette)
 * 160x120 native resolution (stretches to fit browser window)
