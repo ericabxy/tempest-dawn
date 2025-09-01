@@ -70,23 +70,23 @@ function tileset_init() {
   tileset.walkable[0] = false;
   
   // load tile images
-  tileset.tile_img[1].src = "images/tiles/dungeon_floor.png";
+  tileset.tile_img[1].src = "images/tiles/dungeon_floor_stone.png";
   tileset.tile_img[1].onload = function() {tileset_onload();};
   tileset.walkable[1] = true;
   
-  tileset.tile_img[2].src = "images/tiles/dungeon_wall.png";
+  tileset.tile_img[2].src = "images/tiles/dungeon_wall_stone.png";
   tileset.tile_img[2].onload = function() {tileset_onload();};
   tileset.walkable[2] = false;
 
-  tileset.tile_img[3].src = "images/tiles/dungeon_door.png";
+  tileset.tile_img[3].src = "images/tiles/dungeon_door_stone.png";
   tileset.tile_img[3].onload = function() {tileset_onload();};
   tileset.walkable[3] = true;
 
-  tileset.tile_img[4].src = "images/tiles/pillar_exterior.png";
+  tileset.tile_img[4].src = "images/tiles/pillar_exterior_stone.png";
   tileset.tile_img[4].onload = function() {tileset_onload();};
   tileset.walkable[4] = false;
   
-  tileset.tile_img[5].src = "images/tiles/dungeon_ceiling.png";
+  tileset.tile_img[5].src = "images/tiles/dungeon_ceiling_stone.png";
   tileset.tile_img[5].onload = function() {tileset_onload();};
   tileset.walkable[5] = true;
 
@@ -94,15 +94,15 @@ function tileset_init() {
   tileset.tile_img[6].onload = function() {tileset_onload();};
   tileset.walkable[6] = true;
   
-  tileset.tile_img[7].src = "images/tiles/pillar_interior.png";
+  tileset.tile_img[7].src = "images/tiles/pillar_interior_stone.png";
   tileset.tile_img[7].onload = function() {tileset_onload();};
   tileset.walkable[7] = false;  
 
-  tileset.tile_img[8].src = "images/tiles/chest_interior.png";
+  tileset.tile_img[8].src = "images/tiles/chest_interior_stone.png";
   tileset.tile_img[8].onload = function() {tileset_onload();};
   tileset.walkable[8] = true;
 
-  tileset.tile_img[9].src = "images/tiles/chest_exterior.png";
+  tileset.tile_img[9].src = "images/tiles/chest_exterior_stone.png";
   tileset.tile_img[9].onload = function() {tileset_onload();};
   tileset.walkable[9] = true;
 
@@ -130,15 +130,15 @@ function tileset_init() {
   tileset.tile_img[15].onload = function() {tileset_onload();};
   tileset.walkable[15] = false;
 
-  tileset.tile_img[16].src = "images/tiles/skull_pile.png";
+  tileset.tile_img[16].src = "images/tiles/skull_pile_stone.png";
   tileset.tile_img[16].onload = function() {tileset_onload();};
   tileset.walkable[16] = false;
 
-  tileset.tile_img[17].src = "images/tiles/hay_pile.png";
+  tileset.tile_img[17].src = "images/tiles/hay_pile_stone.png";
   tileset.tile_img[17].onload = function() {tileset_onload();};
   tileset.walkable[17] = true;
 
-  tileset.tile_img[18].src = "images/tiles/locked_door.png";
+  tileset.tile_img[18].src = "images/tiles/locked_door_stone.png";
   tileset.tile_img[18].onload = function() {tileset_onload();};
   tileset.walkable[18] = false;
   
