@@ -4,7 +4,7 @@ TileSet class.
 2013 Clint Bellanger
 */
 
-var TILE_COUNT = 19;
+var TILE_COUNT = 20;
 var BACKGROUND_COUNT = 4;
 
 var tileset = new Object();
@@ -145,6 +145,10 @@ function tileset_init() {
   tileset.tile_img[19].src = "images/tiles/death_speaker.png";
   tileset.tile_img[19].onload = function() {tileset_onload();};
   tileset.walkable[19] = true;
+  
+  tileset.tile_img[20].src = "images/tiles/wood_floor.png";
+  tileset.tile_img[20].onload = function() {tileset_onload();};
+  tileset.walkable[20] = true;
   
 }
 

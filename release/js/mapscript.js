@@ -42,7 +42,7 @@ function mapscript_exec(map_id) {
       return mapscript_chest(1,1,"stick", "Wood Stick", 1);
 
     case 3: // Meditation Point
-      return mapscript_chest(2,1,"heal", "Spellbook: Heal", 1);
+      return mapscript_chest(5,4,"heal", "Spellbook: Heal", 1);
 
     case 4: // Monastery Trail
       return mapscript_chest(2,2,"hp1", "Magic Emerald (HP Up)", 1);
